@@ -20,6 +20,11 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
     matrix.writeImage(i1, 0, 0, 7)
     matrix.writeDisplay()
 })
+function Konfiguration () {
+    matrix.comment("elssner/matrix-ipad-62")
+    matrix.comment("1 Erweiterung:")
+    matrix.comment("calliope-net/matrix")
+}
 let i1: Image = null
 matrix.init(matrix.ePages.y64)
 matrix.clearMatrix()
