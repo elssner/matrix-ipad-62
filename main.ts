@@ -73,7 +73,7 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
         # # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . # #
         # # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . # #
         `)
-    matrix.writeImage(i1, 0, 0)
+    matrix.writeImage(i1, 0, 0, 1)
     matrix.writeDisplay()
 })
 input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
@@ -97,5 +97,5 @@ function Konfiguration () {
     matrix.comment("calliope-net/matrix")
 }
 let i1: Image = null
-matrix.init(matrix.ePages.y128)
+matrix.init(matrix.ePages.y64)
 matrix.clearMatrix()
