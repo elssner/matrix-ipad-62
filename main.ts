@@ -20,7 +20,7 @@ input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     richtung = richtung * -1
 })
 function Konfiguration () {
-    matrix.comment("elssner/matrix-ipad-62")
+    matrix.comment("elssner/matrix-ipad-63")
     matrix.comment("1 Erweiterung:")
     matrix.comment("calliope-net/matrix")
 }
